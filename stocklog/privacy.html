@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StockLog 隱私權政策</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>StockLog 隱私權政策</h1>
+      <small>生效日及最後更新：2026 年 11 月 3 日</small>
+    </header>
+    <p>本政策說明 StockLog（以下稱「本 App」）如何處理使用者資料。使用本 App 即表示你已閱讀本政策。</p>
+    <h2>本 App 處理的資料</h2>
+    <ul>
+      <li><b>投資紀錄：</b>股票代號與名稱、股數、交易價格與日期、券商及費用設定、配息資料、備註和計算資料。這些資料預設保存在裝置的 App 儲存空間。</li>
+      <li><b>Google 帳號：</b>你選擇 Google 登入時，本 App 取得 Google 提供的穩定帳號識別碼及 email。識別碼會以 SHA-256 雜湊值作為本機帳號分隔標記；email 用於顯示目前登入帳號。本 App 不會把原始識別碼或 email 寫入同步檔。</li>
+      <li><b>Google Drive 同步：</b>你選擇建立或連結同步檔時，本 App 會在該 Google 帳號自己的 Drive 建立或更新 StockLog JSON 檔。檔案包含投資紀錄與 App 設定。每個 Google 帳號使用自己的同步檔；本 App 不會替你分享給其他帳號。你可以在 Google Drive 管理或刪除同步檔。</li>
+      <li><b>Google Drive 自動備份：</b>若你另外選擇備份資料夾，本 App 會在該資料夾建立含時間資訊的 JSON 備份。自動備份與同步是分開設定的功能。</li>
+      <li><b>股價查詢：</b>查詢行情時，本 App 會向證交所、櫃買中心或其他行情服務送出所查詢的股票代號。行情服務會依其政策處理請求資料；股數、交易價格、配息明細及 Google email 不會隨行情查詢送出。</li>
+    </ul>
+    <h2>資料用途、保存與分享</h2>
+    <p>Google 帳號資料只用於識別目前帳號、分隔本機資料及授權你要求的 Google Drive 同步。本 App 沒有自有雲端資料庫或 StockLog 帳號伺服器；投資紀錄不會傳送到 StockLog 開發者自有伺服器，也不出售或用於廣告追蹤。Google 和行情服務供應者依各自的隱私權政策處理其服務資料。</p>
+    <p>本機資料留在裝置的 App 儲存空間。若 Android 裝置啟用系統 App 備份，Android 系統可能依裝置設定備份或還原 App 資料。Drive 同步檔與自動備份檔留在你的 Google Drive。刪除雲端檔案不會自動刪除其他裝置上的本機資料；移除 App 或清除 App 儲存空間可能刪除尚未備份的本機資料。</p>
+    <h2>Google 權限與安全</h2>
+    <p>Google 登入使用 OpenID Connect 的帳號識別資料；Drive 同步使用逐檔的 <code>drive.file</code> 權限，以建立或存取你選擇交由本 App 使用的同步檔，不要求讀取整個 Drive。授權權杖不會寫入同步檔。你可在 Google 帳戶的第三方連線設定撤銷授權。</p>
+    <p>不同 Google 帳號的資料彼此分開。切換登入帳號時，本機會保存各帳號各自的資料快照；連結同步檔時，雲端內容會載入並取代目前畫面使用的本機資料。請先確認目標帳號並保留重要資料的備份。</p>
+    <h2>兒童與政策更新</h2>
+    <p>本 App 是一般個人投資紀錄工具，不以兒童為對象。政策有重大變更時，會更新本頁及日期。</p>
+    <h2>聯絡方式</h2>
+    <p>資料管理者：StockLog 開發者<br>支援信箱：<a href="mailto:winni7489@gmail.com">winni7489@gmail.com</a></p>
+    <nav class="links" aria-label="相關頁面">
+      <a href="index.html">StockLog 首頁</a>
+      <a href="terms.html">服務條款</a>
+    </nav>
+    <footer>最後更新：2026 年 11 月 3 日</footer>
+  </main>
+</body>
+</html>
